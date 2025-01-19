@@ -91,6 +91,7 @@ a{
 .hero__container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     padding: 91px 0 183px;
 }
@@ -130,3 +131,87 @@ a{
     text-align: center;
 }
 /* --------------------------- HERO END --------------------------- */
+
+/* --------------------------- MAIN-INFO START --------------------------- */
+.main-info{
+    margin: 70px 0;
+}
+.main-info__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;   
+}
+
+.main-info__item{
+    max-width: 280px;
+}
+
+.main-info__item-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.main-info__item-info{
+    font-size: 15px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.learn-more{
+    color: red; 
+    display: flex;
+    align-items: center;  
+}
+
+.learn-more::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background-image: url(../images/main-line.svg);
+    margin-right: 13px;
+}
+/* --------------------------- MAIN-INFO END --------------------------- */
+
+/* --------------------------- BUY-NOW START --------------------------- */
+.buy-now{
+    margin: 70px 0;
+}
+
+.buy-now__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* --------------------------- BUY-NOW END --------------------------- */
+
+/* --------------------------- TAKE CONTROL START --------------------------- */
+.take-control{
+    padding: 240px 0;
+
+    background-image: url(../images/take-control-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.take-control__container{
+    display: flex;
+    justify-content: right;
+}
+
+.white-color-title{
+    color: var(--white);
+}
+
+.white-color-info{
+    color: var(--white);
+    padding-left: 40px;
+    border-left: 3px solid #fff;
+}
+
+/* --------------------------- TAKE CONTROL END --------------------------- */
