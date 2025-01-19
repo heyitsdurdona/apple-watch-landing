@@ -40,5 +40,37 @@ a{
 }
 
 /* --------------------------- HEADER START --------------------------- */
+.site-header{
+    margin-top: 30px;
+    margin-bottom: 79px;
+}
 
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+}
+
+.header__item-link{
+    font-size: 15px;
+    line-height: 150%;
+
+    color: #333333;
+}
+
+.header__item-link:hover{
+    padding-bottom: 6px;
+    border-bottom: 1px solid #333333;
+}
 /* --------------------------- HEADER END --------------------------- */
